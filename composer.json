@@ -1,0 +1,17 @@
+{
+  "name": "maxmage/forcelogin",
+  "description": "Magento 2 module to force redirect to the Login Page",
+  "require": {
+    "magento/magento-composer-installer": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "extra": {
+    "map": [
+      [
+        "*",
+        "MaxMage/ForceLogin"
+      ]
+    ]
+  }
+}
